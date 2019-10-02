@@ -1,0 +1,13 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>Librería de etiquetas ejemplo</short-name>
+	<tag>
+			<name>mytag</name>
+			<tag-class>edu.ucam.tags.MyFirstClass</tag-class>
+			<attribute>
+				<name>name</name>
+				<required>true</required>
+			</attribute>
+	</tag>
+</taglib>
